@@ -1,12 +1,11 @@
-# [Direct to AIP] Onboard PT Oracle for PT-sUSDe-22OCT2026 to Aave V3 Plasma
-
-**Author:** LlamaRisk
-
-**Date:** 2026-07-23
-
+---
+title: "Onboard_PTsUSDe_22OCT2026_Oracle"
+author: "LlamaRisk"
+discussions: "https://gov.discussion.placeholder"
+snapshot: "https://gove.snapshot.placeholder"
 ---
 
-## Summary
+## Simple Summary
 
 This proposal seeks to onboard the PT Oracle for PT-sUSDe-22OCT2026 to the Aave V3 Plasma Instance, enabling accurate on-chain pricing of the principal token through its maturity. This proposal will be Direct-to-AIP.
 
@@ -33,14 +32,12 @@ Risk parameters will be established by Risk Service Providers and incorporated i
 - [Pendle PT documentation](https://docs.pendle.finance/pendle-v2/ProtocolMechanics/YieldTokenization/PT)
 - [Ethena sUSDe documentation](https://docs.ethena.fi/solution-design/staked-usde-susde)
 
-## Disclaimer
+## References
 
-This proposal was prepared by Aave Labs in its capacity as a contributor to the Aave ecosystem. Aave Labs has no financial relationship with Pendle Finance or Ethena Labs and has not received compensation from either party in connection with this proposal.
-
-## Next Steps
-
-1. DAO Service Providers to post Asset Risk Assessment and Asset Technical Assessment.
-2. Publish an AIP vote for final confirmation and on-chain enforcement.
+- Implementation: [AaveV3Plasma](https://github.com/aave-dao/aave-proposals-v3/blob/main/src/20260723_AaveV3Plasma_Onboard_PTsUSDe_22OCT2026_Oracle/AaveV3Plasma_Onboard_PTsUSDe_22OCT2026_Oracle_20260723.sol)
+- Tests: [AaveV3Plasma](https://github.com/aave-dao/aave-proposals-v3/blob/main/src/20260723_AaveV3Plasma_Onboard_PTsUSDe_22OCT2026_Oracle/AaveV3Plasma_Onboard_PTsUSDe_22OCT2026_Oracle_20260723.t.sol)
+- [Snapshot](https://gove.snapshot.placeholder)
+- [Discussion](https://gov.discussion.placeholder)
 
 ## Copyright
 
