@@ -2,6 +2,8 @@
 pragma solidity ^0.8.0;
 
 interface IRiskOracle {
+  function owner() external view returns (address);
+
   /**
    * @notice Adds a new type of update to the list of authorized update types.
    * @param newUpdateType New type of update to allow.
@@ -24,9 +26,19 @@ interface IRiskOracle {
     bytes memory additionalData
   ) external;
 
+  function publishBulkRiskParameterUpdates(
+    string[] memory referenceIds,
+    bytes[] memory newValues,
+    string[] memory updateTypes,
+    address[] memory markets,
+    bytes[] memory additionalData
+  ) external;
+
   /**
    * @notice Adds a new sender to the list of addresses authorized to perform updates.
    * @param sender Address to be authorized.
    */
   function addAuthorizedSender(address sender) external;
+
+  function isAuthorized(address sender) external view returns (bool);
 }
